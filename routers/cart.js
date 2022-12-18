@@ -3,7 +3,7 @@ const { Router, request, response } = require("express");
 const Cart = require("../models").cart;
 const router = new Router();
 
-// get all cart products
+// fetch all cart products
 
 router.get("/", async (request, response, next) => {
   try {
